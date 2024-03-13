@@ -1,11 +1,18 @@
-list=["apple","banana","orange","mango"]
+# list=["apple","banana","orange","mango"]
 
-print(list)
-for i in list :
-    print(i)
+# print(list)
+# for i in list :
+#     print(i)
 
 
-first_tump=("junaid","ahamed","jesan")
+# first_tump=("junaid","ahamed","jesan")
 
-for i in range(len(first_tump)):
-    print(first_tump[i])
+# for i in range(len(first_tump)):
+#     print(first_tump[i])
+
+    # join tumple
+join1=(1,2,3,4,5)
+join2=(6,7,8)
+join=join1+join2
+print(join)
+
