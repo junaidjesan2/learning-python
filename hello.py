@@ -16,9 +16,20 @@
 # join=join1+join2
 # print(join)
 
-set={"orange","banana","dragon"}
+set1={"orange","banana","dragon"}
+set2={"mania","sania","orange"}
+# for s in set:
+#     print(s)
 
-for s in set:
-    print(s)
+# print("fokir" in set)
 
-print("fokir" in set)
+# set.add("junaid")
+# set.remove("dragon")
+# print(set)
+
+### this intersection will return the common value within two sets
+# set=set1.intersection(set2)
+
+set=set1.symmetric_difference_update(set2)
+
+print(set)
